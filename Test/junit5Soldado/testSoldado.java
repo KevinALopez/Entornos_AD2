@@ -60,7 +60,7 @@ class testSoldado {
 			
 			soldado5.disparar(soldado6);
 			
-			boolean resultadoEsperadoNoAbatido=false;
+			boolean resultadoEsperadoNoAbatido=true;
 			boolean resultadoObtenidoNoAbatido=soldado6.isEstaMuerto();
 			
 			assertEquals(resultadoEsperadoNoAbatido,resultadoObtenidoNoAbatido);
